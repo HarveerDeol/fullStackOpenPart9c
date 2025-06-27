@@ -1,11 +1,11 @@
 {
-    "name": "frontend-new",
+    "name": "backend-new",
     "private": true,
     "version": "0.0.0",
     "type": "commonjs",
     "scripts": {
         "tsc": "tsc",
-        "dev": "ts-node-dev index.ts",
+        "dev": "cd src && ts-node-dev index.ts",
         "lint": "eslint .",
         "start": "node build/index.js"
     },
